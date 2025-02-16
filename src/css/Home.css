@@ -1,0 +1,59 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../assets/HomeBackground.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .Text-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .home-container::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .Text-block {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+      max-width: 100%;
+    }
+  }
+  
