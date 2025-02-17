@@ -21,9 +21,8 @@ const Header = () => {
         <nav className="nav">
           <Link to="/" className={getNavLinkClass("/")}>Home</Link>
           <Link to="/about" className={getNavLinkClass("/about")}>About</Link>
-          <Link to="/members" className={getNavLinkClass("/members")}>Experience</Link>
+          <Link to="/members" className={getNavLinkClass("/members")}>Members</Link>
           <Link to="/services" className={getNavLinkClass("/services")}>Services</Link>
-          <Link to="/contact" className={getNavLinkClass("/contact")}>Contact</Link>
           <Link to="/join" className={getNavLinkClass("/join")}>Join</Link>
           <Link to="/faq" className={getNavLinkClass("/faq")}>FAQ</Link>
         </nav>
