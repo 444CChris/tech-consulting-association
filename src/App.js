@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import FAQ from './components/FAQ';
 import Home from './components/Home';
+import About from './components/About';
 import Join from './components/Join';
 import Footer from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
           <div className="pt-20">
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/join" element={<Join />} />
             </Routes>
