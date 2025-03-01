@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import FAQ from './components/FAQ';
+import Members from './components/Members'
 import Home from './components/Home';
 import About from './components/About';
 import Join from './components/Join';
@@ -19,6 +20,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/faq" element={<FAQ />} />
+              <Route path="/members" element={<Members />} />
               <Route path="/join" element={<Join />} />
             </Routes>
           </div>

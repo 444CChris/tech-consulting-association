@@ -8,6 +8,7 @@
   background-image: url('../assets/HomeBackground.png');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
