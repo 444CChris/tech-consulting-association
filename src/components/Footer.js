@@ -9,7 +9,7 @@ function Footer() {
       </div>
       <div className="right-content">
         <p className="questions">Questions?</p>
-        <p className="contact">contact xxx@gmail.com</p>
+        <p className="contact">Contact techconsulting@uw.edu</p>
       </div>
     </footer>
   );

@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Join from './components/Join';
 import Footer from './components/Footer';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/members" element={<Members />} />
               <Route path="/join" element={<Join />} />
+              <Route path="/services" element={<Services />} />
             </Routes>
           </div>
         </header>
