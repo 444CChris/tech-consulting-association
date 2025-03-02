@@ -41,6 +41,7 @@ p {
   margin: 0 auto;
 }
 
+
 @media (max-width: 768px) {
   .Text-block {
       width: 90%;

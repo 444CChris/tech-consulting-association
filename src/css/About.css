@@ -36,15 +36,10 @@
 }
 
 .contacts {
+  margin-top:2%;
     font-size: 0.7em;
     text-align: left;
     color: #808080 ;
     font-style: italic;
 }
 
-.disclaimer {
-    text-align: left;
-    display:flex;
-    color: black; 
-    font-size: 1em;
-}

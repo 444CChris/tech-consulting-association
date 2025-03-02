@@ -14,7 +14,6 @@ const About = () => {
     </div>
     <img src="https://media1.tenor.com/m/fm4u-L3RJjMAAAAC/cat-thousand-yard-stare-thousand-yard-stare.gif"></img>
       <div className="contacts">
-        <p className="disclaimer">Please allow for up to 4 bussiness day before a response!</p>
         <p>Gmail: xxx@gmail.com</p> 
         <p>LinkedIn: somethingsomething</p>
     </div>
