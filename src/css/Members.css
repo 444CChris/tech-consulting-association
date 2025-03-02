@@ -1,32 +1,35 @@
 .members-container {
-    margin-top: 200px;
+    margin-top: 12%;
     z-index: 10;
     min-height: 100vh;
   }
 
-.headShots img{
-    margin-left: 100px; 
-    max-width:162px;
-    height: 200px;
-}
-
-
-.name p{
-    margin-left: 100px;
-    margin-right: 70px;
-    position: relative;
-    display: inline-block
-}
-
-.levelOrganization {
+.members-container p{
     text-align: center;
-    font-size: 3rem;
+}
+
+.members-container img{
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+}
+
+#bigImage:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.levelOrganization {
+    font-size: 2.5rem;
     font-weight: bold;
     color: #062031;
-    margin-bottom: 40px;
+    margin-bottom: 4%;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
+    text-align: center;
 }
 
 .levelOrganization::after {
