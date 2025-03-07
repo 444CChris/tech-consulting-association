@@ -5,20 +5,19 @@ const About = () => {
   return (
     <div className="about-container">
       <h1 className="about-title">About</h1>
-    <div className="text-container">
-        <p>We're the up and coming Technology Consulting assocation based in Seattle!
-           Our work helps promote stability in organizations by creating 
-           and implementing plans based on past data. We'd love to get to 
-           know you, what you'd like out of consulting, and what brought you here!
-           Find more information about how to contact us below! </p> 
-    </div>
-    <img src="https://media1.tenor.com/m/fm4u-L3RJjMAAAAC/cat-thousand-yard-stare-thousand-yard-stare.gif"></img>
-      <div className="contacts">
-        <p>Gmail: xxx@gmail.com</p> 
-        <p>LinkedIn: somethingsomething</p>
-    </div>
+      <p className="about-info">
+           TCA is the University of Washington's premiere student-run technology consultancy.
+           We offer a variety of services tailored at helping companies solve their problems
+           using technologies including software development, systems architecture,
+           cloud solutions, data analysis, and AI integration. We also help students foster the consulting
+           skills they need to succeed in the industry. If you're company looking for a tech consult, we'd love to
+           get to know you, what you'd like out of consulting, and what brought you here! Find more information about
+          how to contact us on the "Contact" page above.
+
+      </p>
     </div>
   );
 };
 
 export default About;
+
