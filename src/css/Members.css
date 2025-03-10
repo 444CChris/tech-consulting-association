@@ -1,29 +1,28 @@
 .members-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 12%;
     z-index: 10;
     min-height: 100vh;
-}
+  }
 
-.members-container p {
+.members-container p{
     text-align: center;
 }
 
-.members-container img {
+.members-container img{
+    align-content: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    height: 75%;
+    width: 300px;
+    height: 400px;
+    padding-left:5%;
+    padding-right:5%;
 }
 
 #bigImage:hover {
     transform: scale(1.1);
-    transition: transform 0.8s ease;
+    transition: transform 0.3s ease;
 }
-
 .levelOrganization {
     font-size: 2.5rem;
     font-weight: bold;
@@ -38,24 +37,9 @@
 .levelOrganization::after {
     content: "";
     display: block;
-    width: 600px;
+    width: 400px;
     height: 3px;
     background-color: #216476;
     margin: 10px auto 0;
     border-radius: 2px;
-}
-
-.members-row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    gap: 40px;
-}
-
-.member-item {
-    text-align: center;
-}
-
-.member-item p {
-    margin-top: 10px;
 }
